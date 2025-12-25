@@ -1,0 +1,13 @@
+model.py -->	ML model training script (runs once)
+app.py	--> Likely a Flask/Streamlit app serving the UI + logic
+dataset.csv   --> 	Data storage
+student_model.pkl 	Serialized trained model
+
+venv/             -->   Virtual environment (isolated Python packages)
+requirements.txt  -->   List of dependencies (pip freeze > requirements.txt)
+
+## Common Commands:
+.\.venv\Scripts\activate          --> Activate venv (always do this first!)
+deactivate                        --> Deactivate venv
+pip install -r requirements.txt   --> Install all dependencies
+pip list                          --> Check installed packages

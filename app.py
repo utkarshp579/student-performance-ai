@@ -21,7 +21,7 @@ st.info(f"📊 Model Accuracy (R² Score): {accuracy:.2f}")
 # ======================================================
 # 🔹 MANUAL STUDENT PREDICTION (NO GRAPHS, NO GRAPH TITLE)
 # ======================================================
-st.divider()
+st.markdown("---")
 st.header("🧑‍🎓 Manual Student Prediction")
 
 study_hours = st.slider("📚 Study Hours per Day", 0, 10, 5)
@@ -51,7 +51,7 @@ if st.button("🚀 Predict Performance"):
 # ======================================================
 # 🔹 CSV STUDENT PREDICTION (ONLY PLACE WHERE GRAPHS EXIST)
 # ======================================================
-st.divider()
+st.markdown("---")
 st.header("📂 CSV Student Prediction (Batch)")
 
 st.caption("Required columns: StudyHours, Attendance, PreviousMarks, Assignments")
