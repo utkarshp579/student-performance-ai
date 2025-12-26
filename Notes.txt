@@ -11,3 +11,9 @@ requirements.txt  -->   List of dependencies (pip freeze > requirements.txt)
 deactivate                        --> Deactivate venv
 pip install -r requirements.txt   --> Install all dependencies
 pip list                          --> Check installed packages
+
+
+1️⃣	requirements.txt	Know what libraries are used
+2️⃣	dataset.csv	Understand the data structure
+3️⃣	model.py	See how ML model is trained
+4️⃣	app.py	See how the app uses the model
